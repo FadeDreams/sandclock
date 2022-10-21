@@ -39,7 +39,7 @@ async def status(session: aiohttp.ClientSession, url: str) -> int:
     async with session.get(url) as result:
         return result.status
 
-#execute f2() 2 times, 3 precisions, printing details of  each function call.
+#execute f2() 2 times, 3 precisions, printing details of each function call.
 @sandclock(2, 3, True)
 async def f2():
     async with aiohttp.ClientSession() as session:
