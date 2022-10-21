@@ -50,7 +50,7 @@ def sandclock(total_iters=1, precession=5, show_details=True):
             ##
             @functools.wraps(func)
             def wrapper_repeat(*args, **kwargs):
-                print(f'{bcolors.OKBLUE}Sandclock: synchronization {func} with args {args} {kwargs}{bcolors.ENDC}')
+                print(f'{bcolors.OKBLUE}Sandclock: synchronous {func} with args {args} {kwargs}{bcolors.ENDC}')
                 total_time = 0
                 total_iter = 0
                 for _ in range(total_iters):

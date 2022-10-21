@@ -1,5 +1,5 @@
 ##### Basic Usage
-A decorator for measuring asynchronous/synchronization function execution time (in seconds) is offered by this Python module.
+A decorator for measuring asynchronous/synchronous function execution time (in seconds) is offered by this Python module.
 - 1st parameter: total number of iterations of the function. defaults to 1.
 - 2nd parameter: (int, optional): precision of execution time in seconds. defaults to 5.
 - 3rd parameter: (bool, optional): whether each function execution time is printed. defaults to true.
