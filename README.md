@@ -27,6 +27,7 @@ Sandclock: iteration: 2 started, <function f1 at 0x7f89eaca7e50> with args ('hel
 f1:  hello world
 Sandclock: iteration: 2 finished, <function f1 at 0x7f89eaca7e50> in 0.000151 second(s)
 Sandclock: total time: 0.001050, total iterations: 3```
+```
 ##### Example 2: (Asynchronous function)
 ```python
 import aiohttp
