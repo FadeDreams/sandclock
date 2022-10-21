@@ -16,18 +16,17 @@ f1("hello world")
 ```
 Results:
 ```
-Sandclock: synchronization <function f1 at 0x7f33eb195e50> with args ('hello world',) {}
-Sandclock: Iter: 0 started, <function f1 at 0x7f33eb195e50> with args ('hello world',) {}
+Sandclock: synchronous <function f1 at 0x7f89eaca7e50> with args ('hello world',) {}
+Sandclock: iteration: 0 started, <function f1 at 0x7f89eaca7e50> with args ('hello world',) {}
 f1:  hello world
-Sandclock: Iter: 0 finished, <function f1 at 0x7f33eb195e50> in 0.000043 second(s)
-Sandclock: Iter: 1 started, <function f1 at 0x7f33eb195e50> with args ('hello world',) {}
+Sandclock: iteration: 0 finished, <function f1 at 0x7f89eaca7e50> in 0.000823 second(s)
+Sandclock: iteration: 1 started, <function f1 at 0x7f89eaca7e50> with args ('hello world',) {}
 f1:  hello world
-Sandclock: Iter: 1 finished, <function f1 at 0x7f33eb195e50> in 0.000081 second(s)
-Sandclock: Iter: 2 started, <function f1 at 0x7f33eb195e50> with args ('hello world',) {}
+Sandclock: iteration: 1 finished, <function f1 at 0x7f89eaca7e50> in 0.000075 second(s)
+Sandclock: iteration: 2 started, <function f1 at 0x7f89eaca7e50> with args ('hello world',) {}
 f1:  hello world
-Sandclock: Iter: 2 finished, <function f1 at 0x7f33eb195e50> in 0.000043 second(s)
-Sandclock: total time: 0.000167, total iterations: 3
-```
+Sandclock: iteration: 2 finished, <function f1 at 0x7f89eaca7e50> in 0.000151 second(s)
+Sandclock: total time: 0.001050, total iterations: 3```
 ##### Example 2: (Asynchronous function)
 ```python
 import aiohttp
