@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sandclock"
+version = "0.1.0"
+description = "A decorator for examining the execution time of asynchronous/synonymous function."
+authors = ["fadedreams7 <fadedreams7@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+keywords = ["flake8", "markdown", "lint"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
